@@ -3,79 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 
 <body>
 
-  <nav>
-    <a href="Homepage.html">Home</a>
-    <a href="about me.html">About Me</a>
-    <a href="projects.html">My Projects</a>
-    <a href="contacts.html">Contact Me</a>
-    <a href="Location.html">Location</a>  
+  <nav class="bg-green-800 text-black p-4 text-center space-x-4">
+    <a href="Homepage.html" class="hover:underline">Home</a>
+    <a href="about me.html" class="hover:underline">About Me</a>
+    <a href="projects.html" class="hover:underline">My Projects</a>
+    <a href="contacts.html" class="hover:underline">Contact Me</a>
+    <a href="Location.html" class="hover:underline">Location</a>
   </nav>
-
-  <div class="resume">
-    <div style="text-align: center; margin-bottom: 20px;">
-      <img src="image/Profile picture.jpeg" alt="Profile Photo" class="profile-img">
+  
+  <div class="max-w-4xl mx-auto p-6 bg-gray-100 mt-6 rounded-lg shadow-md">  
+    
+    <div class="text-center mb-6">
+      <img src="image/Profile picture.jpeg" alt="Profile Photo"
+           class="w-36 h-36 rounded-full mx-auto shadow-lg object-cover">
     </div>
+    <hr class="border-t border-gray-300 my-6">
 
-    <hr style="width: 100%; margin: 20px auto; border: 1px solid #ccc;">
 
-    <h1>Kairen Deiwien</h1>
-    <p>Electronic Engineering Graduate | Future Corporate Leader</p>
+    <h1 class="text-3xl font-bold mb-4">Kairen Deiwien</h1>
+    <p class="text-lg mb-6">Electronic Engineering Graduate | Future Corporate Leader</p>
 
-    <ul>
-      <li>
-        Email:
-        <a href="mailto:kairen.deiwien@gmail.com" style="color: #007BFF; text-decoration: none;">
+    <ul class="space-y-2 text-lg">
+      <li>Email:
+        <a href="mailto:kairen.deiwien@gmail.com" class="text-blue-600 hover:underline">
           kairen.deiwien@gmail.com 📧
         </a>
       </li>
-      
-      <li>
-        Phone:
-        <a href="https://wa.me/60197206931" target="_blank" style="text-decoration: none; color: #007BFF;">
-          <img src="image/whatsapp logo.png" alt="WhatsApp" style="width: 20px; vertical-align: middle; margin-right: 5px;">
-          +60 19-720 6931
+      <li>Phone:
+        <a href="https://wa.me/60197209631" target="_blank" class="text-blue-600 hover:underline inline-flex items-center">
+          <img src="image/whatsapp logo.png" alt="WhatsApp" class="w-5 h-5 mr-2">
+          +60 19-720 9631
         </a>
       </li>
-      
-      
-      <li>
-        Location:
-        <a href="https://www.google.com/maps/place/Kota+Marudu,+Sabah" target="_blank" style="color: #007BFF; text-decoration: none;">
+      <li>Location:
+        <a href="https://www.google.com/maps/place/Kota+Marudu,+Sabah" target="_blank" class="text-blue-600 hover:underline">
           Kota Marudu, Sabah 📍
         </a>
       </li>
-      
     </ul>
-    <hr style="width: 100%; margin: 20px auto; border: 1px solid #ccc;">
-    <h2>Skills</h2>
-    <table>
-      <tr><th>Skill</th><th>Proficiency</th></tr>
-      <tr><td>HTML & CSS</td><td>Advanced</td></tr>
-      <tr><td>Elixir / Phoenix</td><td>Intermediate</td></tr>
-      <tr><td>Leadership & Teamwork</td><td>Strong</td></tr>
+    
+    <hr class="border-t border-gray-300 my-6">
+    <h2 class="text-2xl font-bold mt-8 mb-4">Skills</h2>
+    <table class="w-full table-auto border border-gray-300">
+      <thead>
+        <tr class="bg-gray-100">
+          <th class="border px-4 py-2 text-left">Skill</th>
+          <th class="border px-4 py-2 text-left">Proficiency</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border px-4 py-2">HTML & CSS</td>
+          <td class="border px-4 py-2">Advanced</td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">Elixir / Phoenix</td>
+          <td class="border px-4 py-2">Intermediate</td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">Leadership & Teamwork</td>
+          <td class="border px-4 py-2">Strong</td>
+        </tr>
+      </tbody>
     </table>
-    <hr style="width: 100%; margin: 20px auto; border: 1px solid #ccc;">
-    <h2>Education</h2>
-    <p><strong>Bachelor of Electronic Engineering with Honours</strong><br>
-      <a href="https://www.uthm.edu.my/" target="_blank" style="color: #007BFF; text-decoration: none;">
+    
+    <hr class="border-t border-gray-300 my-6">
+    <h2 class="text-2xl font-bold mt-8 mb-4">Education</h2>
+    <p class="text-lg">
+      <strong>Bachelor of Electronic Engineering with Honours</strong><br>
+      <a href="https://www.uthm.edu.my/" target="_blank" class="text-blue-600 hover:underline">
         Universiti Tun Hussein Onn Malaysia 🎓
-      </a>, 2018–2022</p>
-      
+      </a>, 2018–2022
+    </p>
+    
   </div>
 
 </body>
 
 
-<footer style="text-align: center; margin-top: 50px; color: #555;">
+<footer class="text-center mt-12 text-gray-500 text-sm">
   Page 1 of 5
 </footer>
-</body>
-</html>
 
 </html>
