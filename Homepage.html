@@ -6,10 +6,10 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
+<body class="bg-blue-200">
 
-<body>
 
-  <nav class="bg-green-800 text-black p-4 text-center space-x-4">
+  <nav class="bg-blue-500 text-black p-4 text-center space-x-4 font-bold">
     <a href="Homepage.html" class="hover:underline">Home</a>
     <a href="about me.html" class="hover:underline">About Me</a>
     <a href="projects.html" class="hover:underline">My Projects</a>
@@ -17,13 +17,12 @@
     <a href="Location.html" class="hover:underline">Location</a>
   </nav>
   
-  <div class="max-w-4xl mx-auto p-6 bg-gray-100 mt-6 rounded-lg shadow-md">  
-    
+  <div class="max-w-4xl mx-auto p-6 bg-gray-100 mt-6 rounded-lg shadow-md">
     <div class="text-center mb-6">
       <img src="image/Profile picture.jpeg" alt="Profile Photo"
            class="w-36 h-36 rounded-full mx-auto shadow-lg object-cover">
     </div>
-    <hr class="border-t border-gray-300 my-6">
+    <hr class="border-t border-gray-300 my-6" style="border-width: 2px;">
 
 
     <h1 class="text-3xl font-bold mb-4">Kairen Deiwien</h1>
@@ -37,8 +36,8 @@
       </li>
       <li>Phone:
         <a href="https://wa.me/60197209631" target="_blank" class="text-blue-600 hover:underline inline-flex items-center">
-          <img src="image/whatsapp logo.png" alt="WhatsApp" class="w-5 h-5 mr-2">
           +60 19-720 9631
+          <img src="image/whatsapp logo.png" alt="WhatsApp" class="w-5 h-5 mr-2">
         </a>
       </li>
       <li>Location:
@@ -48,33 +47,40 @@
       </li>
     </ul>
     
-    <hr class="border-t border-gray-300 my-6">
-    <h2 class="text-2xl font-bold mt-8 mb-4">Skills</h2>
-    <table class="w-full table-auto border border-gray-300">
-      <thead>
-        <tr class="bg-gray-100">
-          <th class="border px-4 py-2 text-left">Skill</th>
-          <th class="border px-4 py-2 text-left">Proficiency</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="border px-4 py-2">HTML & CSS</td>
-          <td class="border px-4 py-2">Advanced</td>
-        </tr>
-        <tr>
-          <td class="border px-4 py-2">Elixir / Phoenix</td>
-          <td class="border px-4 py-2">Intermediate</td>
-        </tr>
-        <tr>
-          <td class="border px-4 py-2">Leadership & Teamwork</td>
-          <td class="border px-4 py-2">Strong</td>
-        </tr>
-      </tbody>
+    <hr class="border-t border-gray-300 my-6" style="border-width: 2px;">
+    <h2 class="text-2xl font-bold mt-8 mb-4">SKILLS</h2>
+    <div class="grid gap-4 md:grid-cols-2">
+      <!-- HTML & CSS -->
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h3 class="font-semibold text-lg mb-2">HTML & CSS</h3>
+        <div class="w-full bg-gray-200 rounded-full h-4">
+          <div class="bg-green-500 h-4 rounded-full" style="width: 90%;"></div>
+        </div>
+        <p class="text-sm text-gray-800 mt-1">Advanced</p>  
+      </div>
+    
+      <!-- Elixir / Phoenix -->
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h3 class="font-semibold text-lg mb-2">Elixir / Phoenix</h3>
+        <div class="w-full bg-gray-200 rounded-full h-4">
+          <div class="bg-blue-500 h-4 rounded-full" style="width: 60%;"></div>
+        </div>
+        <p class="text-sm text-gray-800 mt-1">Intermediate</p>
+      </div>
+    
+      <!-- Leadership & Teamwork -->
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h3 class="font-semibold text-lg mb-2">Leadership & Teamwork</h3>
+        <div class="w-full bg-gray-200 rounded-full h-4">
+          <div class="bg-yellow-500 h-4 rounded-full" style="width: 85%;"></div>
+        </div>
+        <p class="text-sm text-gray-800 mt-1">Strong</p>
+      </div>
+    </div>
     </table>
     
-    <hr class="border-t border-gray-300 my-6">
-    <h2 class="text-2xl font-bold mt-8 mb-4">Education</h2>
+    <hr class="border-t border-gray-300 my-6" style="border-width: 2px;">
+    <h2 class="text-2xl font-bold mt-8 mb-4">EDUCATION</h2>
     <p class="text-lg">
       <strong>Bachelor of Electronic Engineering with Honours</strong><br>
       <a href="https://www.uthm.edu.my/" target="_blank" class="text-blue-600 hover:underline">
